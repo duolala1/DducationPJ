@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | User Profile</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="/statics/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/statics/dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="/statics/dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="/statics/dist/css/myself.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>i</b>T</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>i</b>Teacher</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Messages: style can be found in dropdown.less-->
+          <li class="dropdown messages-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-envelope-o"></i>
+              <span class="label label-success">4</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 4 messages</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="/statics/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Support Team
+                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="/statics/dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        AdminLTE Design Team
+                        <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="/statics/dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Developers
+                        <small><i class="fa fa-clock-o"></i> Today</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="/statics/dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Sales Department
+                        <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="/statics/dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Reviewers
+                        <small><i class="fa fa-clock-o"></i> 2 days</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer"><a href="#">See All Messages</a></li>
+            </ul>
+          </li>
+          <!-- Notifications: style can be found in dropdown.less -->
+          <li class="dropdown notifications-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <span class="label label-warning">10</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 10 notifications</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
+                      page and may cause design problems
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-red"></i> 5 new members joined
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-red"></i> You changed your username
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer"><a href="#">View all</a></li>
+            </ul>
+          </li>
+          <!-- Tasks: style can be found in dropdown.less -->
+          <li class="dropdown tasks-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-flag-o"></i>
+              <span class="label label-danger">9</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 9 tasks</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Design some buttons
+                        <small class="pull-right">20%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">20% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Create a nice theme
+                        <small class="pull-right">40%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">40% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Some task I need to do
+                        <small class="pull-right">60%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">60% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Make beautiful transitions
+                        <small class="pull-right">80%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">80% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                </ul>
+              </li>
+              <li class="footer">
+                <a href="#">View all tasks</a>
+              </li>
+            </ul>
+          </li>
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="/statics/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs">{{username}}</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="/statics/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                <p>
+                  {{username}}
+                  <small>Member since Nov. 2012</small>
+                </p>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+                <div class="row">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Followers</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Sales</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Friends</a>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="/index/personal/" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="/index/sign_out" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->
+          <li>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="/statics/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>{{username}}</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+      <!-- search form -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+
+
+
+ <ul class="sidebar-menu">
+        <li class="header">信息科学</li>
+
+
+        <!-- list1_start -->
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-share"></i> <span>系统科学</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+
+          <ul class="treeview-menu">
+
+            <!-- list1.1 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i> 信息论
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0000"><i class="fa fa-circle-o"></i>信息论概念</a></li>
+                <li><a href="http://{{url}}/index/0001"><i class="fa fa-circle-o"></i>信息理论与信息系统</a></li>
+                <li><a href="http://{{url}}/index/0002"><i class="fa fa-circle-o"></i>控制论</a></li>
+                <li><a href="http://{{url}}/index/0003"><i class="fa fa-circle-o"></i>系统论</a></li>
+              </ul>
+            </li>
+
+            <!-- list1.2 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i> 系统学
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0010"><i class="fa fa-circle-o"></i>混沌</a></li>
+                <li><a href="http://{{url}}/index/0011"><i class="fa fa-circle-o"></i>一般系统论</a></li>
+                <li><a href="http://{{url}}/index/0012"><i class="fa fa-circle-o"></i>耗散结构理论</a></li>
+                <li><a href="http://{{url}}/index/0013"><i class="fa fa-circle-o"></i>协同学</a></li>
+                <li><a href="http://{{url}}/index/0014"><i class="fa fa-circle-o"></i>突变论</a></li>
+                <li><a href="http://{{url}}/index/0015"><i class="fa fa-circle-o"></i>超循环论</a></li>
+              </ul>
+            </li>
+
+            <!-- list1.3 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i> 控制理论
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0020"><i class="fa fa-circle-o"></i>大系统理论</a></li>
+                <li><a href="http://{{url}}/index/0021"><i class="fa fa-circle-o"></i>系统辩识</a></li>
+                <li><a href="http://{{url}}/index/0022"><i class="fa fa-circle-o"></i>状态估计</a></li>
+                <li><a href="http://{{url}}/index/0023"><i class="fa fa-circle-o"></i>鲁棒控制</a></li>
+              </ul>
+            </li>
+
+            <!-- list1.4 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i> 系统工程
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0030"><i class="fa fa-circle-o"></i>系统工程基本条目</a></li>
+                <li><a href="http://{{url}}/index/0031"><i class="fa fa-circle-o"></i>系统建模</a></li>
+              </ul>
+            </li>
+
+            <!-- list1.5 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i>控制科学与工程
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0040"><i class="fa fa-circle-o"></i>控制论</a></li>
+                <li><a href="http://{{url}}/index/0041"><i class="fa fa-circle-o"></i>模式识别与智能系统</a></li>
+                <li><a href="http://{{url}}/index/0042"><i class="fa fa-circle-o"></i>导航</a></li>
+                <li><a href="http://{{url}}/index/0043"><i class="fa fa-circle-o"></i>制导与控制</a></li>
+                <li><a href="http://{{url}}/index/0044"><i class="fa fa-circle-o"></i>过程装备与控制工程</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- list1_over -->
+
+
+
+        <!-- list2_start -->
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-share"></i> <span>计算机科学</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+
+          <ul class="treeview-menu">
+
+            <!-- list2.1 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i>计算机技术
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0100"><i class="fa fa-circle-o"></i>自动机理论</a></li>
+                <li><a href="http://{{url}}/index/0101"><i class="fa fa-circle-o"></i>可计算性理论</a></li>
+                <li><a href="http://{{url}}/index/0102"><i class="fa fa-circle-o"></i>计算机可靠性理论</a></li>
+                <li><a href="http://{{url}}/index/0103"><i class="fa fa-circle-o"></i>算法理论</a></li>
+                <li><a href="http://{{url}}/index/0104"><i class="fa fa-circle-o"></i>数据结构</a></li>
+                <li><a href="http://{{url}}/index/0105"><i class="fa fa-circle-o"></i>数据安全与计算机安全</a></li>
+              </ul>
+            </li>
+
+            <!-- list2.2 -->
+            <li class="active">
+              <a href="#"><i class="fa fa-circle-o"></i>人工智能
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li class="active"><a href="http://{{url}}/index/0111"><i class="fa fa-circle-o"></i>人工智能理论</a></li>
+                <li><a href="http://{{url}}/index/0111"><i class="fa fa-circle-o"></i>自然语言理解与机器翻译</a></li>
+                <li><a href="http://{{url}}/index/0112"><i class="fa fa-circle-o"></i>自然语言处理</a></li>
+                <li><a href="http://{{url}}/index/0113"><i class="fa fa-circle-o"></i>机器翻译</a></li>
+                <li><a href="http://{{url}}/index/0114"><i class="fa fa-circle-o"></i>模式识别</a></li>
+                <li><a href="http://{{url}}/index/0115"><i class="fa fa-circle-o"></i>计算机感知</a></li>
+                <li><a href="http://{{url}}/index/0116"><i class="fa fa-circle-o"></i>计算机神经网络</a></li>
+                <li><a href="http://{{url}}/index/0117"><i class="fa fa-circle-o"></i>知识工程</a></li>
+              </ul>
+            </li>
+
+            <!-- list2.3 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i>计算机系统结构
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0120"><i class="fa fa-circle-o"></i>计算机系统设计</a></li>
+                <li><a href="http://{{url}}/index/0121"><i class="fa fa-circle-o"></i>并行处理</a></li>
+                <li><a href="http://{{url}}/index/0122"><i class="fa fa-circle-o"></i>分布式处理系统</a></li>
+                <li><a href="http://{{url}}/index/0123"><i class="fa fa-circle-o"></i>计算机网络</a></li>
+                <li><a href="http://{{url}}/index/0124"><i class="fa fa-circle-o"></i>计算机运行测试与性能评价</a></li>
+              </ul>
+            </li>
+
+            <!-- list2.4 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i>计算机软件
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0130"><i class="fa fa-circle-o"></i>软件理论</a></li>
+                <li><a href="http://{{url}}/index/0131"><i class="fa fa-circle-o"></i>操作系统与操作环境</a></li>
+                <li><a href="http://{{url}}/index/0132"><i class="fa fa-circle-o"></i>程序设计及其语言</a></li>
+                <li><a href="http://{{url}}/index/0133"><i class="fa fa-circle-o"></i>编译系统</a></li>
+                <li><a href="http://{{url}}/index/0134"><i class="fa fa-circle-o"></i>数据库</a></li>
+                <li><a href="http://{{url}}/index/0135"><i class="fa fa-circle-o"></i>软件开发环境与开发技术</a></li>
+                <li><a href="http://{{url}}/index/0136"><i class="fa fa-circle-o"></i>软件工程</a></li>
+              </ul>
+            </li>
+
+            <!-- list2.5 -->
+            <li>
+              <a href="#"><i class="fa fa-circle-o"></i>计算机工程
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="http://{{url}}/index/0140"><i class="fa fa-circle-o"></i>计算机元器件</a></li>
+                <li><a href="http://{{url}}/index/0141"><i class="fa fa-circle-o"></i>计算机处理器技术</a></li>
+                <li><a href="http://{{url}}/index/0142"><i class="fa fa-circle-o"></i>计算机存储技术</a></li>
+                <li><a href="http://{{url}}/index/0143"><i class="fa fa-circle-o"></i>计算机外围设备</a></li>
+                <li><a href="http://{{url}}/index/0144"><i class="fa fa-circle-o"></i>计算机制造与检测</a></li>
+                <li><a href="http://{{url}}/index/0145"><i class="fa fa-circle-o"></i>计算机高密度组装技术</a></li>
+              </ul>
+
+              <!-- list2.6 -->
+              <li>
+                <a href="#"><i class="fa fa-circle-o"></i>计算机应用
+                  <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                  </span>
+                </a>
+                <ul class="treeview-menu">
+                  <li><a href="http://{{url}}/index/0150"><i class="fa fa-circle-o"></i>计算机应用技术</a></li>
+                  <li><a href="http://{{url}}/index/0151"><i class="fa fa-circle-o"></i>文字信息处理</a></li>
+                  <li><a href="http://{{url}}/index/0152"><i class="fa fa-circle-o"></i>计算机仿真</a></li>
+                  <li><a href="http://{{url}}/index/0153"><i class="fa fa-circle-o"></i>计算机图形学</a></li>
+                  <li><a href="http://{{url}}/index/0154"><i class="fa fa-circle-o"></i>计算机图象处理</a></li>
+                  <li><a href="http://{{url}}/index/0155"><i class="fa fa-circle-o"></i>计算机辅助设计</a></li>
+                  <li><a href="http://{{url}}/index/0156"><i class="fa fa-circle-o"></i>计算机过程控制</a></li>
+                  <li><a href="http://{{url}}/index/0157"><i class="fa fa-circle-o"></i>计算机信息管理系统</a></li>
+                  <li><a href="http://{{url}}/index/0158"><i class="fa fa-circle-o"></i>计算机决策支持系统</a></li>
+                </ul>
+                <li><a href="0160"><i class="fa fa-circle-o"></i>网络工程</a></li>
+              </li>
+
+            </li>
+          </ul>
+        </li>
+
+
+
+        </ul>
+        </li>
+
+
+
+
+        <!-- sign_bar -->
+        <li class="header">SIGN</li>
+        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+      </ul>
+    </section>
+  </aside>
+  <!-- sidebar_over -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        {{book.bookName}}
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Information Science</a></li>
+        <li class=>Computer Science</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+      <div class="row">
+        <div class="col-md-3">
+
+          <!-- Profile Image -->
+          <div class="box box-primary">
+            <div class="box-body box-profile">
+              <img class="img-responsive center-block" src={{book.imgUrl}} alt="User profile picture" width="220" style="padding-bottom:10px">
+
+              <ul class="list-group list-group-unbordered">
+                <li class="list-group-item">
+                  <b>Author</b> <a class="pull-right">{{book.author}}</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Score</b> <a class="pull-right">4.78</a>
+                </li>
+                <li class="list-group-item">
+                  <div id="scoremark" class="scoremark scores" style="margin-top:0px;margin-bottom:20px">
+                    <em class="score" id="starnumber" style="margin-left:25px">0</em>
+                    <span class="star">
+                     <span class="ystar" style="width:0%"></span>
+                     <ul>
+                      <li><a href="javascript:void(0)" data-name="很差" class="one-star" onclick="firststar()">1</a></li>
+                      <li><a href="javascript:void(0)" data-name="较差" class="two-stars">2</a></li>
+                      <li><a href="javascript:void(0)" data-name="一般" class="three-stars">3</a></li>
+                      <li><a href="javascript:void(0)" data-name="较好" class="four-stars">4</a></li>
+                      <li><a href="javascript:void(0)" data-name="很好" class="five-stars">5</a></li>
+                     </ul>
+                    </span>
+                    <div style="left: 0px; display: none;" class="tips"></div>
+                 </div>
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary btn-block" onclick="getnumber()" id="submitstar"><b>Submit</b></a>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+          <!-- About Me Box -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Genres</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <p class="text-muted">
+                Computer Science
+              </p>
+              <hr style="margin-top:0px;margin-bottom:7px">
+              <p class="text-muted">Programming</p>
+
+              <hr style="margin-top:0px;margin-bottom:7px">
+              <p class="text-muted">Nonfiction</p>
+
+              <hr style="margin-top:0px;margin-bottom:7px">
+              <p class="text-muted">Science</p>
+
+              <hr style="margin-top:0px;margin-bottom:7px">
+              <p class="text-muted">Artificial Intelligence</p>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-9">
+          <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#content" data-toggle="tab">Content</a></li>
+              <li><a href="#activity" data-toggle="tab">Comment</a></li>
+
+            </ul>
+
+
+
+            <div class="tab-content">
+
+              <div class="active tab-pane" id="content">
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{book.bookDetail}}<br>
+		
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                <br>
+              </div>
+
+
+              <div class="tab-pane" id="activity">
+                <!-- Post -->
+                <div class="post">
+                  <div class="user-block">
+                    <img class="img-circle img-bordered-sm" src="/statics/dist/img/user1-128x128.jpg" alt="user image">
+                        <span class="username">
+                          <a href="#">Jonathan Burke Jr.</a>
+                          <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                        </span>
+                    <span class="description">Shared publicly</span>
+                  </div>
+                  <!-- /.user-block -->
+                  <p>
+                    Though I have just started this book, I can tell that it is going to be amazing. I have been trying to find a good introduction to Prolog for some time now, and this is exactly what I had been looking for. Clear presentation, beautiful and complete editing work, easy to understand, and comprehensive.
+                  </p>
+                  </div>
+                <!-- /.post -->
+
+                <!-- Post -->
+                <div class="post clearfix">
+                  <div class="user-block">
+                    <img class="img-circle img-bordered-sm" src="/statics/dist/img/user7-128x128.jpg" alt="User Image">
+                        <span class="username">
+                          <a href="#">Sarah Ross</a>
+                          <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                        </span>
+                    <span class="description">Shared publicly</span>
+                  </div>
+                  <!-- /.user-block -->
+                  <p>
+                    For a review of both Prolog and AI-based algorithms, this is the book to read! I learend Prolog AND AI from this in one semester, and it was my very last class bfore graduation. WE used Turbo Prolog and if you can find a copy, I'd recommend it.
+                  </p>
+                </div>
+		{% for comment in commentList %}
+                <div class="post clearfix">
+                  <div class="user-block">
+                    <img class="img-circle img-bordered-sm" src="/statics/dist/img/user7-128x128.jpg" alt="User Image">
+                        <span class="username">
+                          <a href="#">{{comment.userName}}</a>
+                          <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                        </span>
+                    <span class="description">Shared publicly</span>
+                  </div>
+                  <!-- /.user-block -->
+                  <p>
+                    {{comment.comments}}
+                  </p>
+                </div>
+		{% endfor %}
+		<form class="form-horizontal" action = "comment/{{book.bookID}}/" method = "post">
+			{% csrf_token %}
+                    <div class="form-group margin-bottom-none">
+                      <div class="col-sm-9">
+                        <input name = "comments" class="form-control input-sm" placeholder="Comment">
+                      </div>
+                      <div class="col-sm-3">
+                        <button type="submit" class="btn btn-danger pull-right btn-block btn-sm">Send</button>
+                      </div>
+                    </div>
+                  </form>
+                <!-- /.post -->
+
+                <!-- Post -->
+
+              </div>
+              <!-- /.tab-pane -->
+
+
+
+            </div>
+            <!-- /.tab-content -->
+          </div>
+          <!-- /.nav-tabs-custom -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 1.0.0
+    </div>
+    <strong>Copyright &copy; 2017-2017 <a href="#">iTeacher</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Create the tabs -->
+    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+      <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane" id="control-sidebar-home-tab">
+        <h3 class="control-sidebar-heading">Recent Activity</h3>
+        <ul class="control-sidebar-menu">
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-birthday-cake bg-red"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+
+                <p>Will be 23 on April 24th</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-user bg-yellow"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+
+                <p>New phone +1(800)555-1234</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+
+                <p>nora@example.com</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-file-code-o bg-green"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+
+                <p>Execution time 5 seconds</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- /.control-sidebar-menu -->
+
+        <h3 class="control-sidebar-heading">Tasks Progress</h3>
+        <ul class="control-sidebar-menu">
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Custom Template Design
+                <span class="label label-danger pull-right">70%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Update Resume
+                <span class="label label-success pull-right">95%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Laravel Integration
+                <span class="label label-warning pull-right">50%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Back End Framework
+                <span class="label label-primary pull-right">68%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- /.control-sidebar-menu -->
+
+      </div>
+      <!-- /.tab-pane -->
+      <!-- Stats tab content -->
+      <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+      <!-- /.tab-pane -->
+      <!-- Settings tab content -->
+      <div class="tab-pane" id="control-sidebar-settings-tab">
+        <form method="post">
+          <h3 class="control-sidebar-heading">General Settings</h3>
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Report panel usage
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+
+            <p>
+              Some information about this general settings option
+            </p>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Allow mail redirect
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+
+            <p>
+              Other sets of options are available
+            </p>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Expose author name in posts
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+
+            <p>
+              Allow the user to show his name in blog posts
+            </p>
+          </div>
+          <!-- /.form-group -->
+
+          <h3 class="control-sidebar-heading">Chat Settings</h3>
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Show me as online
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Turn off notifications
+              <input type="checkbox" class="pull-right">
+            </label>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Delete chat history
+              <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
+            </label>
+          </div>
+          <!-- /.form-group -->
+        </form>
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 2.2.3 -->
+<script src="/statics/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="/statics/bootstrap/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="/statics/plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="/statics/dist/js/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="/statics/dist/js/demo.js"></script>
+
+
+<script>
+//星星评分
+starScore($(".scoremark"));
+function starScore(star){
+ star.find(".star ul li a").mouseenter(function(){
+  var txt = $(this).attr("data-name");
+  var x = $(this).parent("li").index();
+  document.getElementById("starnumber").innerHTML=x+1;
+  star.find(".tips").html(txt).css("left",-6+x*24).show();
+ });
+ star.find(".star ul li a").mouseleave(function(){
+  star.find(".tips").html("").css("left",0).hide();
+ });
+}
+
+function firststar(){
+  star.find(".tips").html(txt).css("left",-6+1*24).show();
+}
+
+function getnumber(){
+x=document.getElementById("starnumber");
+y=document.getElementById("submitstar");
+y.href={{book.bookID}}+"/score/"+x.innerHTML;
+
+} 
+
+</script>
+
+
+</body>
+</html>
